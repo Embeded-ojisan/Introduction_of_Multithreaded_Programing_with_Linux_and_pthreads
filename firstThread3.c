@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
         n = atoi(argv[1]);
     }
     else
-    [
+    {
         n = 1;
-    ]
+    }
 
     if(
         pthread_create(&thread, NULL, threadFunc, (void *)n) != 0
